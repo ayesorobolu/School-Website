@@ -8,12 +8,12 @@ const Navbar = () => {
     <img src={Logo} alt="school logo" className='logo'/>
     </div>
 
-    <ul id='link'>
-      <li><a href="">Home</a></li>
-      <li><a href="">About Us</a></li>
-      <li><a href="">Academics</a></li>
-      <li><a href="">Gallery</a></li>
-      <li><a href="">Contact Us</a></li>
+    <ul className='link'>
+      <li><a href="">HOME</a></li>
+      <li><a href="">ABOUT US</a></li>
+      <li><a href="">ACADEMICS</a></li>
+      <li><a href="">GALLERY</a></li>
+      <li><a href="">CONTACT US</a></li>
     </ul>
   </nav>
   )
