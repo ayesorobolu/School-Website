@@ -1,3 +1,4 @@
+import Footer from './component/Footer.jsx'
 import Navbar from './component/Navbar.jsx'
 import Homepage from './pages/Homepage.jsx'
 
@@ -7,6 +8,7 @@ function App() {
 
     <Navbar/>
     <Homepage/>
+    <Footer/>
     </>
   )
 }
