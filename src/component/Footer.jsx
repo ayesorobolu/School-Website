@@ -9,7 +9,7 @@ const Footer = () => {
         
         {/* Logo / About */}
         <div className="footer-section">
-          <h2 className="footer-logo">Crystal Model Academy</h2>
+          <h2 className="footer-logo">Crystal Model School</h2>
           <p className="footer-text">
             Building Tomorrow's World Today
           </p>
@@ -59,7 +59,7 @@ const Footer = () => {
 
       {/* Bottom */}
       <div className="footer-bottom">
-        © {new Date().getFullYear()} Albesta Academy. All rights reserved.
+        © {new Date().getFullYear()} Crystal Model School . All rights reserved.
       </div>
     </footer>
   );
