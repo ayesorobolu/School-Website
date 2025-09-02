@@ -468,6 +468,15 @@ ul {
   margin-top: 10px;
   margin-left: 66px;
 }
+
+.contact-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 0;
+  gap: 20px;
+}
+
 .contact-container{
   width: 100%;
   min-height: 80vh;
@@ -548,6 +557,35 @@ ul {
   .contact-right {
     gap: 12px;
   }
+}
+
+.info-line{
+  width: 70px;
+  height: 2.5px;
+  background-color: #2563eb;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  margin-right: 100px;
+  margin-top: 45px;
+  gap: 38px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.08em;
+  color: #374151;
+  margin-bottom: 6px;
+}
+
+.info-icon {
+  color: #2563eb;
+  font-size: 1.3em;
 }
 
 footer{
