@@ -588,6 +588,12 @@ ul {
   font-size: 1.3em;
 }
 
+.google-map {
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
 footer{
   height: 55vh;
 }
