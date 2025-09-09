@@ -1,5 +1,6 @@
 import React from 'react'
 import WelcomePic from '../assets/welcome-pic.jpg'
+import '../css/Welcome.css'
 
 const Welcome = () => {
   return (

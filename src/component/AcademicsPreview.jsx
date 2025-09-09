@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBookOpen, FaChalkboardTeacher} from "react-icons/fa";
+import '../css/Academicspreview.css'
 
 const AcademicPreview = () => {
   const programs = [

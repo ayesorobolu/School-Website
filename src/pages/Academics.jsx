@@ -6,6 +6,7 @@ import curriculumImg from "../assets/school3.jpg";
 import activityImg from "../assets/activity.jpg";
 import student1Img from "../assets/school2.jpg";
 import student2Img from "../assets/school1.jpg";
+import '../css/Academics.css'
 
 const Academics = () => {
   return (

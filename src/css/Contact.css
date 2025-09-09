@@ -1,0 +1,151 @@
+.contact-hero{  width: 100%;
+  height: 45vh;
+  background-image: url("../src/assets/school-pic.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-hero-text{
+  padding: 0 60px;
+  padding-top: 78px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px #111827;
+  font-size: 55px;
+  font-weight: 300;
+  line-height: 60.5px;
+  color: rgb(255, 255, 255);
+}
+
+.contact-line{
+  width: 70px;
+  height: 2.5px;
+  background-color: #2563eb;
+  margin-top: 10px;
+  margin-left: 66px;
+}
+
+.contact-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 0;
+  gap: 20px;
+}
+
+.contact-container{
+  width: 100%;
+  min-height: 80vh;
+}
+
+.contact-text {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-top: 25px;
+  margin-left: 55px;
+  letter-spacing: 0.5px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.contact-form {
+  display: flex;
+  gap: 24px;
+  padding: 32px 24px;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 12px 0 0px 30px;
+}
+
+.contact-left,
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-family: inherit;
+  font-size: 16px;
+  padding: 12px 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s;
+  background: #f9fafb;
+  resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #60A5FA;
+  background: #fff;
+}
+
+.contact-btn {
+  background-color: #2563eb;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 0;
+  margin-left: 55px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s;
+  width: 15%;
+}
+
+.contact-btn:hover {
+  background-color: #1e40af;
+}
+
+/* Responsive: stack fields on small screens */
+@media (max-width: 700px) {
+  .contact-form {
+    flex-direction: column;
+    max-width: 95vw;
+    margin: 24px auto;
+    padding: 20px 10px;
+  }
+  .contact-left,
+  .contact-right {
+    gap: 12px;
+  }
+}
+
+.info-line{
+  width: 70px;
+  height: 2.5px;
+  background-color: #2563eb;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  margin-right: 100px;
+  margin-top: 45px;
+  gap: 38px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.08em;
+  color: #374151;
+  margin-bottom: 6px;
+}
+
+.info-icon {
+  color: #2563eb;
+  font-size: 1.3em;
+}
+
+.google-map {
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}

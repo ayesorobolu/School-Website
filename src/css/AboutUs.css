@@ -1,0 +1,603 @@
+.about-hero {
+  width: 100%;
+  height: 45vh;
+  background: url("../src/assets/school2.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+/* .about-hero-overlay {
+  width: 100%;
+  background: rgba(255,255,255,0.96);
+  padding: 40px 0 32px 0;
+  text-align: center;
+  box-shadow: 0 4px 24px rgba(38,99,235,0.09);
+} */
+
+.about-hero-overlay h1 {
+  font-size: 55px;  
+  padding: 0 60px;
+  padding-top: 38px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+.about-line{
+  width: 70px;
+  height: 2.5px;
+  background-color: #2563eb;
+  /* margin-top: 6px; */
+  margin-left: 63px;
+}
+
+.about-hero-overlay p {
+  font-size: 20px;
+  color: #e8e9eb;
+  margin-bottom: 0;
+  font-weight: 500;
+  padding: 0 60px;
+}
+
+/* ...existing code... */
+
+.about-history {
+  background: #fff;
+  padding: 48px 0 0 0;
+}
+
+.about-history .container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.history-flex {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.history-text {
+  flex: 2;
+  min-width: 260px;
+}
+
+.history-timeline {
+  margin: 18px 0 18px 0;
+  padding-left: 0;
+}
+
+.history-timeline li {
+  font-size: 16px;
+  color: #2563eb;
+  margin-bottom: 6px;
+  list-style: none;
+  position: relative;
+  padding-left: 32px;
+}
+
+.history-timeline li::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 8px;
+  height: 8px;
+  background: #2563eb;
+  border-radius: 50%;
+}
+
+.history-year {
+  font-weight: 700;
+  color: #1e293b;
+  margin-right: 8px;
+}
+
+.history-img-col {
+  flex: 1;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.history-img {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 2px 12px rgba(38,99,235,0.09);
+}
+
+@media (max-width: 900px) {
+  .history-flex {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .history-img-col {
+    flex-direction: row;
+    gap: 12px;
+    justify-content: flex-start;
+  }
+  .history-img {
+    max-width: 140px;
+    height: 90px;
+  }
+}
+
+/* Section Container */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 24px 0 24px;
+}
+
+.about-intro h2,
+.about-mvv h2,
+.about-why h2,
+.about-leadership h2 {
+  font-size: 32px;
+  color: #2563eb;
+  font-weight: 700;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+.about-intro p,
+.about-mvv p,
+.about-why p,
+.about-leadership p {
+  font-size: 18px;
+  color: #334155;
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+/* Mission, Vision, Values */
+.about-mvv-flex {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.about-mvv-flex > div {
+  flex: 1;
+  min-width: 220px;
+}
+
+.about-mvv-flex h3 {
+  color: #2563eb;
+  font-size: 20px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+/* Stats Section */
+.about-stats-section {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.stat-row {
+  display: flex;
+  width: 78vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 90px;
+  font-size: 20px;
+}
+
+/* Blue stat row (add class 'blue-row' to every other row in your JSX) */
+.stat-row .stat-number {
+  background-color: #2563eb;
+  height: 16.4vh;
+  padding-top: 10px;
+  padding-left: 10%;
+  align-items: center;
+  width: 500px;
+  color: #fff;
+}
+
+.stat-row .stat-text {
+  background: #fff;
+  color: #1e293b;
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  padding: 0 32px;
+  flex: 1;
+}
+
+@media (max-width: 900px) {
+  .stat-row {
+    width: 98vw;
+    font-size: 17px;
+    min-height: 70px;
+  }
+  .stat-row .stat-number {
+    min-width: 110px;
+    font-size: 1.6rem;
+    padding: 0 18px;
+  }
+  .stat-row .stat-text {
+    padding: 0 10px;
+    font-size: 1rem;
+  }
+}
+
+/* Why Choose Us */
+.about-why ul {
+  margin-top: 18px;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 32px;
+}
+
+.about-why li {
+  list-style: none;
+  font-size: 18px;
+  color: #2563eb;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Leadership */
+.about-leaders {
+  display: flex;
+  gap: 48px;
+  margin-top: 32px;
+  /* flex-wrap: wrap; */
+}
+
+.leader {
+  text-align: center;
+  flex: 1;
+  min-width: 220px;
+}
+
+.leader img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 12px rgba(38,99,235,0.09);
+}
+
+.leader h3 {
+  color: #2563eb;
+  font-size: 20px;
+  margin-bottom: 4px;
+  font-weight: 700;
+  margin-right: 80px;
+}
+
+.leader p {
+  color: #374151;
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-right: 80px;
+}
+
+#leader-last{
+  margin-right: 900px;
+}
+
+/* CTA Section */
+.about-cta {
+  width: 100vw;
+  max-width: 100vw;
+  margin: 56px 0 0 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(120deg, #2563eb 70%, #60A5FA 100%);
+  padding: 48px 0;
+  text-align: center;
+}
+
+.cta-box {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.cta-box h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+.cta-box p {
+  font-size: 20px;
+  margin-bottom: 28px;
+}
+
+.cta-btn {
+  display: inline-block;
+  background: #fff;
+  color: #2563eb;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 16px 44px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(38,99,235,0.09);
+  transition: background 0.2s, color 0.2s;
+  border: none;
+}
+
+.cta-btn:hover {
+  background: #2563eb;
+  color: #fff;
+}
+
+/* ...existing code... */
+
+.about-proprietress {
+  background: #f8fafc;
+  padding: 48px 0 0 0;
+}
+
+.about-proprietress .container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about-proprietress h2 {
+  font-size: 32px;
+  color: #2563eb;
+  font-weight: 700;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+.about-proprietress img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 12px rgba(38,99,235,0.09);
+  margin-bottom: 0;
+}
+
+.about-proprietress > .container > div {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+  .about-proprietress > .container > div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+  .about-proprietress img {
+    margin-bottom: 12px;
+  }
+}
+
+/* History Section */
+.about-history {
+  background: #fff;
+  padding: 48px 0 0 0;
+}
+
+.about-history .container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.about-history h2 {
+  font-size: 32px;
+  color: #2563eb;
+  font-weight: 700;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+.about-history p {
+  font-size: 18px;
+  color: #334155;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+
+.about-history ul {
+  margin-left: 18px;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.about-history li {
+  font-size: 16px;
+  color: #2563eb;
+  margin-bottom: 6px;
+  list-style: disc inside;
+  font-weight: 500;
+}
+
+/* Facilities Section */
+.about-facilities {
+  background: #f8fafc;
+  padding: 48px 0 0 0;
+}
+
+.about-facilities .container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.about-facilities h2 {
+  font-size: 32px;
+  color: #2563eb;
+  font-weight: 700;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+.about-facilities p {
+  font-size: 18px;
+  color: #334155;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+
+.facilities-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 32px;
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+.facilities-list li {
+  list-style: none;
+  font-size: 18px;
+  color: #2563eb;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px 18px;
+  box-shadow: 0 2px 8px rgba(38,99,235,0.04);
+  margin-bottom: 8px;
+}
+
+.facilities-list li svg {
+  font-size: 22px;
+  color: #2563eb;
+}
+
+@media (max-width: 700px) {
+  .facilities-list {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+/* Meet the Team Section */
+.about-team {
+  background: #fff;
+  padding: 48px 0 0 0;
+}
+
+.about-team .container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.about-team h2 {
+  font-size: 32px;
+  color: #2563eb;
+  font-weight: 700;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+.about-leaders {
+  display: flex;
+  gap: 48px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+
+.leader {
+  text-align: center;
+  flex: 1;
+  min-width: 220px;
+  margin-bottom: 24px;
+}
+
+.leader img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 12px rgba(38,99,235,0.09);
+}
+
+.leader h3 {
+  color: #2563eb;
+  font-size: 20px;
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+
+.leader p {
+  color: #374151;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+  .about-leaders {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .leader {
+    margin-bottom: 18px;
+  }
+}
+
+/* ...existing code... */
+
+/* Responsive */
+@media (max-width: 700px) {
+  .about-hero-overlay h1 {
+    font-size: 28px;
+  }
+  .about-hero-overlay p {
+    font-size: 15px;
+  }
+  .about-intro h2,
+  .about-mvv h2,
+  .about-why h2,
+  .about-leadership h2 {
+    font-size: 22px;
+  }
+  .about-mvv-flex {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .about-leaders {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .about-stat {
+    width: 99vw;
+    font-size: 15px;
+    min-height: 50px;
+  }
+  .about-stat-number {
+    min-width: 70px;
+    font-size: 1.1rem;
+    padding: 0 8px;
+  }
+  .about-stat-text {
+    padding: 0 6px;
+    font-size: 0.95rem;
+  }
+}
