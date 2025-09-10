@@ -5,7 +5,11 @@ import "../css/Navbar.css"
 
 const Navbar = () => {
   return (
-  <nav>
+  <div>
+    <div className='topbar'>
+      <p> Call us: +123 456 7890 | Email: info@crystalmodelschool.com </p>
+    </div>
+    <nav>
     <Link to={'/'}>
     <div id='school-logo'>
     <img src={Logo} alt="school logo" className='logo'/>
@@ -20,6 +24,7 @@ const Navbar = () => {
      <Link to={'contact'}> <li> CONTACT US</li> </Link>
     </ul>
   </nav>
+  </div>
   )
 }
 
