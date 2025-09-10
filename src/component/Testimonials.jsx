@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import '../css/Testimonial.css'
+import WelcomePic from '../assets/welcome-pic.jpg'
 
 const Testimonials = () => {
 
@@ -59,7 +60,7 @@ const Testimonials = () => {
           </div>
 
          <div className='testimonial-image'>
-          <img src="" alt="testimonial-image" />
+          <img src={WelcomePic} alt="testimonial-image" />
         </div>
     </section>
   )

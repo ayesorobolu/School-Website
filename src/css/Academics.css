@@ -8,11 +8,9 @@
 .academics-hero {
   width: 100%;
   height: 45vh;
-  background-image: url("../src/assets/school3.jpg");
+  background-image: url("../src/assets/school2.jpg");
   background-size: cover;
   background-position: center;
-  /* display: flex;
-  align-items: flex-end; */
 }
 
 .academics-hero-overlay {
@@ -20,13 +18,13 @@
   margin-top: 32px;
   margin-left: 60px;
   margin-bottom: 32px;
-  /* border-left: 6px solid #2563eb; */
 }
 
 .academics-hero-overlay h1 {
-  font-size: 44px;
-  font-weight: 800;
   color: #2563eb;
+  font-size: 55px;  
+  padding-top: 38px;
+  font-weight: 800;
   margin-bottom: 12px;
   letter-spacing: 1px;
 }

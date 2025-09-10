@@ -7,21 +7,12 @@
 
 }
 
-/* .about-hero-overlay {
-  width: 100%;
-  background: rgba(255,255,255,0.96);
-  padding: 40px 0 32px 0;
-  text-align: center;
-  box-shadow: 0 4px 24px rgba(38,99,235,0.09);
-} */
-
 .about-hero-overlay h1 {
   font-size: 55px;  
   padding: 0 60px;
   padding-top: 38px;
   font-weight: 800;
   color: #ffffff;
-  margin-bottom: 12px;
   letter-spacing: 1px;
 }
 
@@ -29,19 +20,16 @@
   width: 70px;
   height: 2.5px;
   background-color: #2563eb;
-  /* margin-top: 6px; */
   margin-left: 63px;
 }
 
 .about-hero-overlay p {
   font-size: 20px;
   color: #e8e9eb;
-  margin-bottom: 0;
+  margin-top: 12px;
   font-weight: 500;
   padding: 0 60px;
 }
-
-/* ...existing code... */
 
 .about-history {
   background: #fff;
@@ -179,7 +167,6 @@
 
 /* Stats Section */
 .about-stats-section {
-  display: flex;
   flex-direction: column;
   background: #fff;
   display: flex;

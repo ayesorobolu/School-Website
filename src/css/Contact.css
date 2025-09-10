@@ -8,13 +8,13 @@
 .contact-hero-text{
   padding: 0 60px;
   padding-top: 78px;
-  font-family: 'Poppins', sans-serif;
-  color: white;
   text-shadow: 2px 2px 4px #111827;
   font-size: 55px;
-  font-weight: 300;
   line-height: 60.5px;
-  color: rgb(255, 255, 255);
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
 }
 
 .contact-line{

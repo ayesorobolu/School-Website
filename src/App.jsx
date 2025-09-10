@@ -5,6 +5,7 @@ import Contact from './pages/Contact.jsx'
 import { Routes, Route } from 'react-router-dom'
 import Academics from './pages/Academics.jsx'
 import AboutUs from './pages/AboutUs.jsx'
+import Gallery from './pages/Gallery.jsx'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='contact' element={<Contact/>}/>
         <Route path='academics' element={<Academics/>}/>
         <Route path='about' element={<AboutUs/>}/>
+        <Route path='gallery' element={<Gallery/>}/>
     </Routes>
     <Footer/>
     </>

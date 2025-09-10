@@ -1,6 +1,7 @@
 import React from "react";
 import { FaBookReader, FaUsers, FaGlobe, FaUserTie, FaSchool, FaChalkboardTeacher, FaFutbol, FaBook, FaLaptop, FaTree, FaHandsHelping } from "react-icons/fa";
 import '../css/AboutUs.css'
+import Pic from '../assets/school1.jpg'
 
 const AboutUs = () => {
   return (
@@ -41,8 +42,8 @@ const AboutUs = () => {
               </p>
             </div>
             <div className="history-img-col">
-              <img src="/images/school_building.jpg" alt="School Building" className="history-img" />
-              <img src="/images/old_class.jpg" alt="First Classroom" className="history-img" />
+              <img src={Pic} alt="School Building" className="history-img" />
+              <img src={Pic} alt="First Classroom" className="history-img" />
             </div>
           </div>
         </div>
@@ -54,7 +55,7 @@ const AboutUs = () => {
           <h2>Message from the Proprietress</h2>
           <div style={{display: "flex", alignItems: "center", gap: "32px", flexWrap: "wrap"}}>
             <img
-              src="/images/proprietress.jpg"
+              src={Pic}
               alt="Proprietress"
               style={{
                 width: "120px",
@@ -161,27 +162,27 @@ const AboutUs = () => {
           <h2>Meet the Team</h2>
           <div className="about-leaders">
             <div className="leader">
-              <img src="/images/headteacher.jpg" alt="Head Teacher" />
+              <img src={Pic} alt="Head Teacher" />
               <h3>Mrs. Jane Doe</h3>
               <p>Head Teacher</p>
             </div>
             <div className="leader">
-              <img src="/images/admin.jpg" alt="Administrator" />
+              <img src={Pic} alt="Administrator" />
               <h3>Mr. John Smith</h3>
               <p>School Administrator</p>
             </div>
             <div className="leader">
-              <img src="/images/science_teacher.jpg" alt="Science Teacher" />
+              <img src={Pic} alt="Science Teacher" />
               <h3>Mrs. Ada Okeke</h3>
               <p>Science Teacher</p>
             </div>
             <div className="leader">
-              <img src="/images/sports_coach.jpg" alt="Sports Coach" />
+              <img src={Pic} alt="Sports Coach" />
               <h3>Coach Daniel</h3>
               <p>Sports Coach</p>
             </div>
             <div className="leader">
-              <img src="/images/counselor.jpg" alt="School Counselor" />
+              <img src={Pic} alt="School Counselor" />
               <h3 id="leader-last">Ms. Blessing Udo</h3>
               <p id="leader-last">School Counselor</p>
             </div>
