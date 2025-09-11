@@ -32,10 +32,8 @@ const Navbar = () => {
             </li>
             {showDropdown && (
               <ul className="dropdown-menu">
-                <Link to={'/academics#nursery'}><li>Nursery</li></Link>
-                <Link to={'/academics#primary'}><li>Primary</li></Link>
-                <Link to={'/academics#curriculum'}><li>Curriculum</li></Link>
-                <Link to={'/academics#activities'}><li>Activities</li></Link>
+                <Link to={'/academics/nursery'}><li>Nursery</li></Link>
+                <Link to={'/academics/primary'}><li>Primary</li></Link>
               </ul>
             )}
           </div>
