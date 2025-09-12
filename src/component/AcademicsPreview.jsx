@@ -37,11 +37,11 @@ const AcademicPreview = () => {
         </div>
 
         
-        <div className="btn-wrapper">
+        {/* <div className="btn-wrapper">
           <a href="/academics" className="academic-btn">
             Explore Academics
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

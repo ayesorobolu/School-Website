@@ -18,7 +18,7 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* History Section (formerly Who We Are) */}
+      {/* History Section */}
       <section className="about-history">
         <div className="container">
           <h2>Our History</h2>
@@ -30,20 +30,19 @@ const AboutUs = () => {
               <p>
                 Over the years, we have expanded our facilities, introduced cutting-edge technology, and enriched our curriculum to meet the evolving needs of our students. Our commitment to nurturing every child’s potential has remained unwavering, and our alumni continue to excel in various fields, making us proud.
               </p>
-              <ul className="history-timeline">
+              {/* <ul className="history-timeline">
                 <li><span className="history-year">2005</span> – School founded with 2 classrooms and 30 students</li>
                 <li><span className="history-year">2010</span> – First graduating class and expansion to primary section</li>
                 <li><span className="history-year">2015</span> – Introduction of ICT and Science labs</li>
                 <li><span className="history-year">2020</span> – Over 500 students and 40+ staff members</li>
                 <li><span className="history-year">2024</span> – Recognized as a leading school in the region</li>
-              </ul>
+              </ul> */}
               <p>
                 Today, Crystal Model School stands as a beacon of hope and excellence, dedicated to shaping responsible, confident, and creative leaders of tomorrow.
               </p>
             </div>
             <div className="history-img-col">
               <img src={Pic} alt="School Building" className="history-img" />
-              <img src={Pic} alt="First Classroom" className="history-img" />
             </div>
           </div>
         </div>
@@ -69,7 +68,7 @@ const AboutUs = () => {
               <p style={{fontSize: "18px", color: "#334155", lineHeight: 1.7}}>
                 Welcome to Crystal Model School! Our mission is to provide every child with a solid foundation for lifelong learning and success. We believe in nurturing not just academic excellence, but also character, creativity, and confidence. Thank you for entrusting us with your child’s education and growth.
               </p>
-              <div style={{fontWeight: 600, color: "#2563eb", marginTop: "10px"}}>Mrs. Grace Johnson<br/>Proprietress</div>
+              <div style={{fontWeight: 600, color: "#2563eb", marginTop: "10px"}}>Mrs. Asenuga<br/>Proprietress</div>
             </div>
           </div>
         </div>

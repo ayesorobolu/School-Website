@@ -11,6 +11,7 @@ const Contact = () => {
       <div className='contact-line'></div>
     </div>
 
+    
     <div className='contact-section'> 
     <ContactForm/>
     <ContactInfo/>

@@ -31,6 +31,11 @@
   align-items: flex-start;
   padding: 40px 0;
   gap: 20px;
+  background-image: url("../assets/circle-scatter-haikei.svg");
+  margin:50px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .contact-container{
@@ -101,7 +106,7 @@
   background-color: #1e40af;
 }
 
-/* Responsive: stack fields on small screens */
+
 @media (max-width: 700px) {
   .contact-form {
     flex-direction: column;
@@ -118,7 +123,8 @@
 .info-line{
   width: 70px;
   height: 2.5px;
-  background-color: #2563eb;
+  margin-left:25px;
+  background-color: #ffffff;
 }
 
 .contact-info {
@@ -135,7 +141,7 @@
   align-items: center;
   gap: 12px;
   font-size: 1.08em;
-  color: #374151;
+  color: #ffffff;
   margin-bottom: 6px;
 }
 

@@ -1,7 +1,12 @@
 .stats-section {
-  background-color: #f8f9fa;
+  /* background-color: #f8f9fa; */
   padding: 80px 20px;
   text-align: center;
+    background-image: url("../assets/blurry-gradient-haikei.svg");
+  /* margin:50px; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .stats-title {

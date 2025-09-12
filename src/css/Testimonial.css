@@ -3,11 +3,16 @@
   align-items: center;
   justify-content: space-between;
   padding: 60px 80px; 
-  background: #e7f2ffbe;
+  /* background: #e7f2ffbe; */
   position: relative;
   gap: 40px; 
   flex-wrap: wrap;
   min-height: 80vh; 
+  background-image: url("../assets/layered-waves-haikei.svg");
+  /* margin:50px; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .testimonial-container {
@@ -38,7 +43,7 @@
 .testimonial-author {
   font-weight: 700;
   font-size: 18px; 
-  color: #60A5FA;
+  color: #fcfdfe;
 }
 
 .testimonial-image {
