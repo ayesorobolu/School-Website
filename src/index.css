@@ -6,8 +6,7 @@
   font-weight: 400;
   font-family: "Outfit", sans-serif;
 
-  color-scheme: light dark;
-  color: black;
+  /* color-scheme: light dark; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,4 +23,5 @@ padding: 0;
 
 body {
   overflow-x: hidden;
+  /* overflow-y: hidden; */
 }

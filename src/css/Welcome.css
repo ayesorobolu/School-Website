@@ -57,8 +57,9 @@
 
 .welcome-button{
   padding: 12px 24px;
-  color: #f7f7f7;
-  border: 2px solid #2563EB;
+  color: darkblue;
+  border: 2px solid darkblue;
+  background: white;
   border-radius: 55px;
   font-size: 1em;
   cursor: pointer;

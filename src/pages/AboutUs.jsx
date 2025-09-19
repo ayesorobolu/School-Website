@@ -52,23 +52,16 @@ const AboutUs = () => {
       <section className="about-proprietress">
         <div className="container">
           <h2>Message from the Proprietress</h2>
-          <div style={{display: "flex", alignItems: "center", gap: "32px", flexWrap: "wrap"}}>
+          <div>
             <img
               src={Pic}
               alt="Proprietress"
-              style={{
-                width: "120px",
-                height: "120px",
-                borderRadius: "50%",
-                objectFit: "cover",
-                boxShadow: "0 2px 12px rgba(38,99,235,0.09)"
-              }}
             />
             <div>
-              <p style={{fontSize: "18px", color: "#334155", lineHeight: 1.7}}>
+              <p className="proprietress-text">
                 Welcome to Crystal Model School! Our mission is to provide every child with a solid foundation for lifelong learning and success. We believe in nurturing not just academic excellence, but also character, creativity, and confidence. Thank you for entrusting us with your child’s education and growth.
               </p>
-              <div style={{fontWeight: 600, color: "#2563eb", marginTop: "10px"}}>Mrs. Asenuga<br/>Proprietress</div>
+              <div className="proprietress-name">Mrs. Asenuga<br/>Proprietress</div>
             </div>
           </div>
         </div>
